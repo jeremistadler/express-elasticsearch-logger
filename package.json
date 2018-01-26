@@ -1,7 +1,7 @@
 {
   "name": "@jeremistadler/express-elasticsearch-logger",
   "description": "Log Express app requests to ElasticSearch.",
-  "version": "4.0.0",
+  "version": "6.0.0",
   "homepage": "https://github.com/alexmingoia/express-elasticsearch-logger",
   "author": {
     "name": "Alex Mingoia",
@@ -32,7 +32,8 @@
     "test": "gulp test"
   },
   "dependencies": {
-    "elasticsearch": "^14.0.0"
+    "elasticsearch": "^14.0.0",
+    "on-finished": "^2.3.0"
   },
   "devDependencies": {
     "chai": "^4.1.2",
